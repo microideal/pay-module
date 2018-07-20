@@ -5,7 +5,7 @@
 
 	<groupId>com.microideal</groupId>
 	<artifactId>pay-module</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>pay-module</name>
@@ -68,18 +68,5 @@
 		</plugins>
 	</build>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>microideal</id>
-			<url>http://118.31.54.190:9002/repository/microideal/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
-	<repositories>
-		<repository>
-			<id>microideal</id>
-			<url>http://118.31.54.190:9002/repository/microideal/</url>
-		</repository>
-	</repositories>
 
 </project>
